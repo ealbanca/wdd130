@@ -221,6 +221,7 @@ nav{
     box-shadow: 5px 5px 10px #6f7364;
     border: 10px solid #d9c2a3;
     width: 100%;
+    justify-items: center;
 }
 
 .card-img:hover {
@@ -230,7 +231,7 @@ nav{
 
 .home-grid{
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 
