@@ -32,6 +32,7 @@ main section{
 
 }
 
+
 body {
     background-color: white ; 
     font-family: "Marvel", Helvetica, sans-serif;
@@ -235,6 +236,35 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+
+/* Subpage- Rivers*/
+
+#background_rivers{
+    height: 120px;
+}
+
+.rivers_msg p{
+    color: #113537;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.rivers_msg{
+    background-color: #59D2FE;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column:2/6;
+    grid-row: 2/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.river_1{
+    width: 100%;
+    grid-column: 6/10;
+    grid-row: 3/6;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
 
 
 @media screen and (max-width: 900px) {
