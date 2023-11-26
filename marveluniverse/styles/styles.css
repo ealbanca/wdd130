@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Marvel:wght@400;700&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;    
+}
+
+nav a{
+    text-align: center;
+    background-color:#5BC1CE;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+main section{
+    text-align: center;
+}
+
+body {
+    background-color: white ; 
+    font-family: "Marvel", Helvetica, sans-serif;
+    font-size: 27px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: white;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+nav a:hover {
+    background-color: #59D2FE;
+    color: white;
+}
+
+footer{
+    background-color: #5BC1CE ;
+    color:white;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home_paragraph_1{
+    color: #113537;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    grid-column: 2/8;
+    grid-row: 2/6;
+    text-align:justify;
+}
+
+.home_paragraph_2{
+    color: #113537;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    grid-column: 7/13;
+    grid-row: 7/13;
+    text-align: justify;
+}
+
+.Stan_Lee_color{
+    grid-column:10/13;
+    grid-row: 2/6;
+    box-shadow: 5px 5px 10px #F9D876;
+    
+    
+}
+
+.Stan_Lee{
+    width:80%;
+    grid-column:2/5;
+    grid-row: 7/13;
+    box-shadow: 5px 5px 10px #F9D876;
+}
+
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: black;
+}
+
+.logo {
+    width: 220px;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+.smedia{
+    width: 40px;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}  
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero {
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    
+}
+
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
