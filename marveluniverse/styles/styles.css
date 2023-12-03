@@ -61,18 +61,101 @@ footer{
     text-align: justify;
 }
 
-/*.Stan_Lee_color{
-    grid-column:10/13;
-    grid-row: 2/6;
-    box-shadow: 5px 5px 10px #F9D876;
-    
-}*/
-
 .Stan_Lee{
     width:80%;
     grid-column:2/5;
     grid-row: 7/13;
     box-shadow: 5px 5px 10px #F9D876;
+}
+
+.container {
+    position: relative;
+    grid-column:10/13;
+    grid-row: 2/6;
+}
+  
+.Stan_Lee_color {
+    display: block;
+    grid-column:10/13;
+    grid-row: 2/6;
+    width: 100%;
+    position: relative;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F9D876;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+  }
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*Heroes*/
+
+.captain {
+    grid-column:3/6;
+    grid-row: 2/4;
+    height:50% ;
+}
+
+.heroes_paragraph_1{
+    color: #113537;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    grid-column: 6/13;
+    grid-row: 2/4;
+    text-align:justify;
+}
+
+.heroes_paragraph_2{
+    color: #113537;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    grid-column: 2/9;
+    grid-row: 4/6;
+    text-align:justify;
+}
+
+.iron {
+    grid-column:10/13;
+    grid-row: 4/6;
+    width: 50%;
+    align-content: center;
+
+}
+
+.hulk {
+    grid-column:3/6;
+    grid-row: 6/9;
+    height: 50%;
+    
+}
+
+.heroes_paragraph_3{
+    color: #113537;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    grid-column: 6/13;
+    grid-row: 6/9;
+    text-align:justify;
 }
 
 
@@ -137,47 +220,4 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.container {
-    position: relative;
-    grid-column:10/13;
-    grid-row: 2/6;
-}
-  
-.Stan_Lee_color {
-    display: block;
-    grid-column:10/13;
-    grid-row: 2/6;
-    width: 100%;
-    position: relative;
-}
-  
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #F9D876;
-}
-  
-.container:hover .overlay {
-    opacity: 1;
-  }
-  
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
