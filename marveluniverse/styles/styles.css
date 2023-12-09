@@ -155,6 +155,37 @@ footer{
     text-align:justify;
 }
 
+/* Villains*/
+
+.loki {
+    grid-column:3/8;
+    grid-row: 2/6;
+    width: 50%;
+}
+
+.villains_paragraph_1{
+    color: #113537;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    grid-column: 7/13;
+    grid-row: 3/6;
+    text-align:justify;
+}
+
+.villains_paragraph_2{
+    color: #113537;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    grid-column: 3/8;
+    grid-row: 7/13;
+    text-align:justify;
+}
+
+.thanos {
+    grid-column:9/13;
+    grid-row: 7/13;
+    width: 100%;
+}
+
+
 
 footer a{
     color: white;
