@@ -185,6 +185,13 @@ footer{
     width: 100%;
 }
 
+/*Contact Us*/
+
+#feedback {
+    grid-row: 2/13;
+    grid-column: 2/13;
+}
+
 
 
 footer a{
